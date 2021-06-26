@@ -1,0 +1,19 @@
+.headerContainer{
+    height: 600px;
+}
+
+.headerLeft{
+    background-color: rgb(37, 37, 43);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    color: white;
+    opacity: 0.8;
+}
+
+.headerBg{
+    background-image: url('../../../images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

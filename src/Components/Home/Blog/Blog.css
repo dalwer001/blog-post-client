@@ -1,0 +1,23 @@
+.blogBg{
+    background-image: url('../../../images/blogBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+.blogCardInfo img{
+    height: 250px;
+    width: 250px;
+}
+.blogCardInfo{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 1px 10px 40px 10px ;
+}
