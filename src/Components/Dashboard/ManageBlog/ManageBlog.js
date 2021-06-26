@@ -6,7 +6,7 @@ const ManageBlog = () => {
     const [blog, setBlog] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:9999/blog')
+        fetch('https://stark-caverns-88671.herokuapp.com/blog')
             .then(res => res.json())
             .then(data => setBlog(data))
     }, [])
@@ -14,7 +14,7 @@ const ManageBlog = () => {
 
 
     const deleted = () => {
-        fetch('http://localhost:9999/blog')
+        fetch('https://stark-caverns-88671.herokuapp.com/blog')
             .then(res => res.json())
             .then(data => setBlog(data))
     }
@@ -22,7 +22,7 @@ const ManageBlog = () => {
 
     const handleDelete = (id) => {
 
-        fetch(`http://localhost:9999/deleteBlog/${id}`, {
+        fetch(`https://stark-caverns-88671.herokuapp.com/deleteBlog/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())

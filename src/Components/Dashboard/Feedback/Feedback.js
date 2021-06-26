@@ -19,7 +19,7 @@ const Feedback = () => {
 
         console.log(feedbackInfo);
 
-        const url = `http://localhost:9999/addFeedback`;
+        const url = `https://stark-caverns-88671.herokuapp.com/addFeedback`;
         fetch(url, {
             method: 'POST',
             headers: {
